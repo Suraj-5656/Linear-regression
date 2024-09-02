@@ -1,7 +1,7 @@
- import numpy as nm
+import numpy as nm
 import matplotlib.pyplot as mtp
 import pandas as pd
-data_set= pd.read_csv('Salary_Data.csv')
+data_set= pd.read_csv('/content/Salary_dataset.csv')
 x= data_set.iloc[:, :-1].values
 y= data_set.iloc[:, 1].values
 # Splitting the dataset into training and test set.
